@@ -1,0 +1,28 @@
+# .gitignore
+
+# Arquivos e diretórios específicos para o Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do ambiente virtual
+venv/
+env/
+
+# Arquivos de configuração locais
+*.sqlite3
+*.env
+*.pyc
+
+# Outros arquivos e diretórios padrão
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
+*.swo
+media/
+static/
